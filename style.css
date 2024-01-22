@@ -1,0 +1,81 @@
+body{
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.df{
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  width: 200px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  transition: 0.9s;
+  background-color: black;
+  color: aqua;
+  box-shadow:0px 0px 60px 60px white;
+  border-bottom: 3px solid fuchsia;
+  border-right: 3px solid  fuchsia;
+  border-top: 3px solid fuchsia;
+  border-left: 3px solid fuchsia;
+  border-radius: 10px;
+  }
+.df:hover{
+  background-color:  yellow;
+ box-shadow: 0px 0px 90px 90px  yellowgreen;
+  border-radius: 10px;
+  transition: 0.9s;
+  color: cornflowerblue;
+  border-bottom: 3px solid fuchsia;
+  border-top: 3px solid fuchsia;
+  animation: slider 2s linear infinite;
+  animation-iteration-count: 2s ;
+}
+@-moz-keyframes slider{
+  from{
+    background-color: yellowgreen;
+  }
+  to{
+    background-color: tomato;
+  }
+}
+.dd{
+  color: purple;
+  font-size: 30px;
+}
+.dd:hover{
+  color: blue;
+  transition: 0.9s;
+}
+.d{
+  color: brown;
+  font-size: 30px;
+}
+.d:hover{
+  color: blueviolet;
+}
+.dg{
+  color: green;
+  font-size: 30px;
+}
+.dg:hover{
+  color: royalblue;
+}
+.de{
+  color: chartreuse;
+  font-size: 30px;
+}
+.de:hover{
+  color: tomato;
+}
+.qd{
+  color: crimson;
+  font-size: 30px;
+}
+.qd:hover{
+  color: gold;
+}
